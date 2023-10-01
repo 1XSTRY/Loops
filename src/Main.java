@@ -29,7 +29,7 @@ public class Main {
     }
     public static void task5 (){
         for (int i = 1904; i <= 2096; i = i +4)
-            System.out.println(i);
+            System.out.println(i + " год является високосным");
     }
     public static void task6 (){
         for (int i = 7; i <= 98; i = i +7)
@@ -44,7 +44,7 @@ public class Main {
         int total = 0;
         for (int i = 0; i < 12; i++){
             total = total + sal;
-            System.out.println(total);
+            System.out.println("месяц " + i + " сумма накоплений равна " + total + " рублей");
         }
     }
     public static void task9 (){
@@ -53,7 +53,7 @@ public class Main {
         for (int i = 0; i < 12; i++){
             total = total + total/100;
             total = total + sal;
-            System.out.println(total);
+            System.out.println("месяц " + i + " сумма накоплений равна " + total + " рублей");
         }
     }
     public static void task10 (){
